@@ -1,0 +1,12 @@
+<html>
+function outer(){
+    let userName="hello"
+    function inner(){
+        console.log(userName);
+
+    }
+    //inner
+    return inner
+}let fn=outer()
+fn()
+</html>
